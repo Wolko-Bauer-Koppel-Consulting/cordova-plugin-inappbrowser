@@ -310,7 +310,7 @@ static CDVWKInAppBrowser* instance = nil;
                 double x        = frame.origin.x;
                 double y        = frame.origin.y;
                 double width    = (frame.size.width - x);
-                double height   = (frame.size.height - 90);
+                double height   = (frame.size.height - 85);
 
                 // Set Updated Frame
                 frame   = CGRectMake(x , y , width , height );
